@@ -1,0 +1,33 @@
+{
+  "name": "copy-master",
+  "version": "2.0.0",
+  "description": "Squad de elite 2.0 com 33 agentes de copywriting — 32 mestres lendários + 1 orquestrador. Versão turbinada do Copy Squad com referências reais, exemplos campeões, frameworks aprofundados, e 10 novos especialistas em persuasão, ofertas, SaaS, pitch e negociação.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "copywriting",
+    "direct-response",
+    "sales-letter",
+    "email",
+    "vsl",
+    "funnel",
+    "headline",
+    "offer",
+    "ad-copy",
+    "launch",
+    "brand-copy",
+    "persuasion",
+    "negotiation",
+    "pitch",
+    "saas",
+    "conversion",
+    "psychology"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

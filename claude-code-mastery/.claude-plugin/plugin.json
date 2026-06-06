@@ -1,0 +1,28 @@
+{
+  "name": "claude-code-mastery",
+  "version": "1.0.0",
+  "description": "Squad especialista em todas as dimensões do Claude Code: hooks, skills, subagents, MCP, plugins, agent teams, customização, integração com projetos, roadmap tracking, e AIOS-core architecture awareness.",
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "claude-code",
+    "hooks",
+    "skills",
+    "subagents",
+    "mcp",
+    "plugins",
+    "agent-teams",
+    "customization",
+    "integration",
+    "context-engineering",
+    "roadmap",
+    "aios"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

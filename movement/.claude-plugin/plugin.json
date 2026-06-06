@@ -1,0 +1,23 @@
+{
+  "name": "movement",
+  "version": "1.0.0",
+  "description": "Squad de 7 agentes para construcao de movimentos. Fenomenologia, identidade, manifestos, ciclos de crescimento, medicao de impacto.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "movement",
+    "community",
+    "social-impact",
+    "identity",
+    "manifesto",
+    "growth-cycles",
+    "phenomenology"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

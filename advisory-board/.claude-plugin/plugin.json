@@ -1,0 +1,23 @@
+{
+  "name": "advisory-board",
+  "version": "1.0.0",
+  "description": "Board de 11 conselheiros estrategicos — Ray Dalio, Charlie Munger, Naval Ravikant, Peter Thiel, Reid Hoffman, Simon Sinek, Brene Brown, e mais.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "strategy",
+    "investment",
+    "leadership",
+    "mental-models",
+    "scaling",
+    "purpose",
+    "entrepreneurship"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

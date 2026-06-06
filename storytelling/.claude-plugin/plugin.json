@@ -1,0 +1,23 @@
+{
+  "name": "storytelling",
+  "version": "1.0.0",
+  "description": "Squad de 12 mestres do storytelling. Mitologia, screenwriting, narrativa pessoal, business storytelling, improviso, pitching, movimentos sociais.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "storytelling",
+    "narrative",
+    "screenplay",
+    "presentation",
+    "pitch",
+    "improv",
+    "brand-story"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

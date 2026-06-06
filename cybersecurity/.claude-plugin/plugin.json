@@ -1,0 +1,23 @@
+{
+  "name": "cybersecurity",
+  "version": "1.0.0",
+  "description": "Squad de 15 agentes de ciberseguranca. Pentest, red team, blue team, AppSec, incident response, recon, exploitation — tudo com framework etico.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "pentesting",
+    "red-team",
+    "blue-team",
+    "appsec",
+    "network-security",
+    "vulnerability",
+    "incident-response"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

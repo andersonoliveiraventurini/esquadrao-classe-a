@@ -1,0 +1,25 @@
+{
+  "name": "hormozi-squad",
+  "version": "1.0.0",
+  "description": "Squad de 16 agentes implementando os frameworks de Alex Hormozi. Offers, leads, pricing, sales, content, hooks, launch, retention, scaling.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "hormozi",
+    "offers",
+    "leads",
+    "pricing",
+    "sales",
+    "scaling",
+    "content",
+    "hooks",
+    "business"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

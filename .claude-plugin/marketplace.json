@@ -1,0 +1,247 @@
+{
+  "name": "esquadrao-clase-a",
+  "owner": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "metadata": {
+    "description": "Esquadrões de agentes de IA especialistas para o Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "advisory-board",
+      "source": "./advisory-board",
+      "version": "1.0.0",
+      "description": "Board de 11 conselheiros estrategicos — Ray Dalio, Charlie Munger, Naval Ravikant, Peter Thiel, Reid Hoffman, Simon Sinek, Brene Brown, e mais.",
+      "keywords": [
+        "strategy",
+        "investment",
+        "leadership",
+        "mental-models",
+        "scaling",
+        "purpose",
+        "entrepreneurship"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "brand-squad",
+      "source": "./brand-squad",
+      "version": "1.0.0",
+      "description": "O squad definitivo de estratégia de marca — 10 pensadores lendários de branding clonados como agentes de IA, mais 4 especialistas funcionais e 1 orquestrador. Cobre brand equity, posicionamento, identidade, arquitetura e crescimento.",
+      "keywords": [
+        "branding",
+        "brand-strategy",
+        "positioning",
+        "identity",
+        "naming",
+        "archetype",
+        "storybrand",
+        "brand-equity",
+        "brand-architecture",
+        "luxury"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "cybersecurity",
+      "source": "./cybersecurity",
+      "version": "1.0.0",
+      "description": "Squad de 15 agentes de ciberseguranca. Pentest, red team, blue team, AppSec, incident response, recon, exploitation — tudo com framework etico.",
+      "keywords": [
+        "pentesting",
+        "red-team",
+        "blue-team",
+        "appsec",
+        "network-security",
+        "vulnerability",
+        "incident-response"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "design-squad",
+      "source": "./design-squad",
+      "version": "1.0.0",
+      "description": "Squad de design operations — 3 experts (Brad Frost, Dan Mall, Dave Malouf) + 4 especialistas + 1 orquestrador. Design systems, UX, UI, visual.",
+      "keywords": [
+        "design-systems",
+        "ux",
+        "ui",
+        "atomic-design",
+        "components",
+        "design-ops",
+        "visual-design"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "hormozi-squad",
+      "source": "./hormozi-squad",
+      "version": "1.0.0",
+      "description": "Squad de 16 agentes implementando os frameworks de Alex Hormozi. Offers, leads, pricing, sales, content, hooks, launch, retention, scaling.",
+      "keywords": [
+        "hormozi",
+        "offers",
+        "leads",
+        "pricing",
+        "sales",
+        "scaling",
+        "content",
+        "hooks",
+        "business"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "storytelling",
+      "source": "./storytelling",
+      "version": "1.0.0",
+      "description": "Squad de 12 mestres do storytelling. Mitologia, screenwriting, narrativa pessoal, business storytelling, improviso, pitching, movimentos sociais.",
+      "keywords": [
+        "storytelling",
+        "narrative",
+        "screenplay",
+        "presentation",
+        "pitch",
+        "improv",
+        "brand-story"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "traffic-masters",
+      "source": "./traffic-masters",
+      "version": "1.0.0",
+      "description": "Squad de 16 agentes especialistas em trafego pago. Facebook, YouTube, Google Ads, media buying, creative analysis, scaling, tracking.",
+      "keywords": [
+        "traffic",
+        "ads",
+        "facebook",
+        "google",
+        "youtube",
+        "media-buying",
+        "creative",
+        "scaling",
+        "tracking"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "copy-master",
+      "source": "./copy-master",
+      "version": "2.0.0",
+      "description": "Squad de elite 2.0 com 33 agentes de copywriting — 32 mestres lendários + 1 orquestrador. Versão turbinada do Copy Squad com referências reais, exemplos campeões, frameworks aprofundados, e 10 novos especialistas em persuasão, ofertas, SaaS, pitch e negociação.",
+      "keywords": [
+        "copywriting",
+        "direct-response",
+        "sales-letter",
+        "email",
+        "vsl",
+        "funnel",
+        "headline",
+        "offer",
+        "ad-copy",
+        "launch",
+        "brand-copy",
+        "persuasion",
+        "negotiation",
+        "pitch",
+        "saas",
+        "conversion",
+        "psychology"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "copy-squad",
+      "source": "./copy-squad",
+      "version": "1.0.0",
+      "description": "Squad de elite com 23 agentes de copywriting — 22 copywriters lendários + 1 orquestrador. Cobre direct response, email, funis, VSLs, cartas de vendas, ofertas e copywriting de marca.",
+      "keywords": [
+        "copywriting",
+        "direct-response",
+        "sales-letter",
+        "email",
+        "vsl",
+        "funnel",
+        "headline",
+        "offer",
+        "ad-copy",
+        "launch",
+        "brand-copy"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "movement",
+      "source": "./movement",
+      "version": "1.0.0",
+      "description": "Squad de 7 agentes para construcao de movimentos. Fenomenologia, identidade, manifestos, ciclos de crescimento, medicao de impacto.",
+      "keywords": [
+        "movement",
+        "community",
+        "social-impact",
+        "identity",
+        "manifesto",
+        "growth-cycles",
+        "phenomenology"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "data-squad",
+      "source": "./data-squad",
+      "version": "1.0.0",
+      "description": "Squad de 7 estrategistas data-driven — analytics (Kaushik), CLV (Fader), growth (Ellis), community (Spinks), customer success (Mehta), audience (Kao).",
+      "keywords": [
+        "analytics",
+        "growth",
+        "customer-success",
+        "community",
+        "clv",
+        "metrics",
+        "retention"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "c-level-squad",
+      "source": "./c-level-squad",
+      "version": "1.0.0",
+      "description": "C-suite virtual de 6 executivos — CEO (Vision Chief), COO, CMO, CTO, CIO, CAIO. Estrategia, operacoes, marketing, tecnologia, AI.",
+      "keywords": [
+        "c-suite",
+        "strategy",
+        "operations",
+        "marketing",
+        "technology",
+        "ai",
+        "leadership"
+      ],
+      "license": "MIT"
+    },
+    {
+      "name": "claude-code-mastery",
+      "source": "./claude-code-mastery",
+      "version": "1.0.0",
+      "description": "Squad especialista em todas as dimensões do Claude Code: hooks, skills, subagents, MCP, plugins, agent teams, customização, integração com projetos, roadmap tracking, e AIOS-core architecture awareness.",
+      "keywords": [
+        "claude-code",
+        "hooks",
+        "skills",
+        "subagents",
+        "mcp",
+        "plugins",
+        "agent-teams",
+        "customization",
+        "integration",
+        "context-engineering",
+        "roadmap",
+        "aios"
+      ],
+      "license": "UNLICENSED"
+    }
+  ]
+}

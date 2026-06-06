@@ -1,0 +1,27 @@
+{
+  "name": "copy-squad",
+  "version": "1.0.0",
+  "description": "Squad de elite com 23 agentes de copywriting — 22 copywriters lendários + 1 orquestrador. Cobre direct response, email, funis, VSLs, cartas de vendas, ofertas e copywriting de marca.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "copywriting",
+    "direct-response",
+    "sales-letter",
+    "email",
+    "vsl",
+    "funnel",
+    "headline",
+    "offer",
+    "ad-copy",
+    "launch",
+    "brand-copy"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

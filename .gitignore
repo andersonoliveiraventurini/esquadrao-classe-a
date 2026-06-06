@@ -1,0 +1,6 @@
+# Fonte temporária dos squads (clone de ohmyjahh/xquads-squads) — não versionar
+xquads-squads-src/
+
+# OS
+.DS_Store
+Thumbs.db

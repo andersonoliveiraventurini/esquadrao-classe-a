@@ -1,0 +1,23 @@
+{
+  "name": "data-squad",
+  "version": "1.0.0",
+  "description": "Squad de 7 estrategistas data-driven — analytics (Kaushik), CLV (Fader), growth (Ellis), community (Spinks), customer success (Mehta), audience (Kao).",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "analytics",
+    "growth",
+    "customer-success",
+    "community",
+    "clv",
+    "metrics",
+    "retention"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}

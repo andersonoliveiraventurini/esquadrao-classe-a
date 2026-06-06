@@ -1,0 +1,23 @@
+{
+  "name": "design-squad",
+  "version": "1.0.0",
+  "description": "Squad de design operations — 3 experts (Brad Frost, Dan Mall, Dave Malouf) + 4 especialistas + 1 orquestrador. Design systems, UX, UI, visual.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "design-systems",
+    "ux",
+    "ui",
+    "atomic-design",
+    "components",
+    "design-ops",
+    "visual-design"
+  ],
+  "metadata": {
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "original_author": "Synkra AIOS"
+  }
+}
