@@ -19,19 +19,28 @@ invocable as Claude Code skills.
 
 ## 🚀 Installation
 
-In Claude Code, register the marketplace and install the squads you want:
+In Claude Code, register the marketplace:
 
 ```bash
-# 1. Register the marketplace (once)
 /plugin marketplace add andersonoliveiraventurini/esquadrao-classe-a
+```
 
-# 2. Install a squad
+**Install everything at once (recommended)** — a single bundle plugin with all 13 squads:
+
+```bash
+/plugin install esquadrao-completo@esquadrao-classe-a
+```
+
+**Or install individual squads** — pick only the ones you want:
+
+```bash
 /plugin install copy-squad@esquadrao-classe-a
-
-# 3. (optional) install the ones you care about
 /plugin install advisory-board@esquadrao-classe-a
 /plugin install traffic-masters@esquadrao-classe-a
 ```
+
+> Choose **one** approach: install `esquadrao-completo` (everything) **or** the individual
+> squads — installing both would load each squad twice.
 
 > Tip: to test locally from a clone of the repo, run `/plugin marketplace add .` at the
 > project root.

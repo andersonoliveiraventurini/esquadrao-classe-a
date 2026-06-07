@@ -26,8 +26,10 @@ Squads (skill names): `advisory-board`, `c-level-squad`, `hormozi-squad`, `copy-
 
 - Source of truth for content: `xquads-squads-src/` (gitignored clone of `ohmyjahh/xquads-squads`).
 - Regenerate: `python scripts/build_marketplace.py` (Claude plugins + marketplace.json), then
-  `python scripts/build_agents_skills.py` (mirror to `.agents/skills/`).
+  `python scripts/build_agents_skills.py` (mirror to `.agents/skills/`), then
+  `python scripts/build_bundle.py` (the `esquadrao-completo` all-in-one plugin).
 - Install for opencode/Codex globally: `python scripts/install_skills.py`.
+- One-command Claude Code install: the `esquadrao-completo` bundle plugin contains all 13 skills.
 - Do NOT re-run `build_marketplace.py` blindly after differentiating orchestrators — it recopies
   resources from source and would revert the renamed orchestrator personas. See
   [`docs/PRD-marketplace-esquadroes.md`](./docs/PRD-marketplace-esquadroes.md).

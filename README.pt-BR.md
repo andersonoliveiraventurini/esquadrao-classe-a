@@ -19,19 +19,28 @@ todos invocáveis por skill no Claude Code.
 
 ## 🚀 Instalação
 
-No Claude Code, registre o marketplace e instale os esquadrões que quiser:
+No Claude Code, registre o marketplace:
 
 ```bash
-# 1. Registrar o marketplace (uma vez)
 /plugin marketplace add andersonoliveiraventurini/esquadrao-classe-a
+```
 
-# 2. Instalar um esquadrão
+**Instalar tudo de uma vez (recomendado)** — um único plugin-bundle com os 13 esquadrões:
+
+```bash
+/plugin install esquadrao-completo@esquadrao-classe-a
+```
+
+**Ou instalar esquadrões individuais** — escolha só os que quiser:
+
+```bash
 /plugin install copy-squad@esquadrao-classe-a
-
-# 3. (opcional) instalar os que interessam
 /plugin install advisory-board@esquadrao-classe-a
 /plugin install traffic-masters@esquadrao-classe-a
 ```
+
+> Escolha **uma** abordagem: instale o `esquadrao-completo` (tudo) **ou** os esquadrões
+> individuais — instalar os dois carregaria cada esquadrão em duplicidade.
 
 > Dica: para testar localmente a partir de um clone do repo, use
 > `/plugin marketplace add .` na raiz do projeto.

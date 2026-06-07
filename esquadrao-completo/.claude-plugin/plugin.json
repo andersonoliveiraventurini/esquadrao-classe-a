@@ -1,0 +1,56 @@
+{
+  "name": "esquadrao-completo",
+  "version": "1.0.0",
+  "description": "Pacote completo: instala os 13 esquadrões de uma vez (177 agentes especialistas). Use este plugin único em vez de instalar squad por squad.",
+  "license": "MIT",
+  "author": {
+    "name": "Anderson de Oliveira Venturini",
+    "email": "anderson.oliveira.venturini@gmail.com"
+  },
+  "keywords": [
+    "ads",
+    "analytics",
+    "blue-team",
+    "brand-strategy",
+    "branding",
+    "c-suite",
+    "claude-code",
+    "community",
+    "copywriting",
+    "customer-success",
+    "design-systems",
+    "direct-response",
+    "facebook",
+    "growth",
+    "hooks",
+    "hormozi",
+    "investment",
+    "leadership",
+    "leads",
+    "movement",
+    "narrative",
+    "offers",
+    "operations",
+    "pentesting",
+    "positioning"
+  ],
+  "metadata": {
+    "bundles": [
+      "advisory-board",
+      "brand-squad",
+      "cybersecurity",
+      "design-squad",
+      "hormozi-squad",
+      "storytelling",
+      "traffic-masters",
+      "copy-master",
+      "copy-squad",
+      "movement",
+      "data-squad",
+      "c-level-squad",
+      "claude-code-mastery"
+    ],
+    "adapted_from": "ohmyjahh/xquads-squads",
+    "note": "claude-code-mastery tem licença ambígua — ver NOTICE"
+  }
+}
