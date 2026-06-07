@@ -1,20 +1,20 @@
-Esquadrão Classe A — Marketplace de plugins para Claude Code
-============================================================
+Esquadrão Classe A — Plugin marketplace for Claude Code
+=======================================================
 
-Este projeto empacota e adapta, no formato de marketplace de plugins do
-Claude Code, os "squads" do projeto open-source:
+This project packages and adapts, in the Claude Code plugin-marketplace format,
+the "squads" from the open-source project:
 
     ohmyjahh/xquads-squads  —  https://github.com/ohmyjahh/xquads-squads
-    Autor original do conteúdo dos squads: Synkra AIOS
+    Original author of the squad content: Synkra AIOS
 
-LICENÇA DO CONTEÚDO ORIGINAL
-----------------------------
-12 dos 13 squads declaram licença MIT em seus manifestos de origem
-(`license: MIT`, `author: "Synkra AIOS"`). Para esses, a licença MIT é
-preservada e a atribuição ao autor original é mantida no campo
-`metadata.original_author` de cada `plugin.json`.
+LICENSE OF THE ORIGINAL CONTENT
+-------------------------------
+12 of the 13 squads declare an MIT license in their source manifests
+(`license: MIT`, `author: "Synkra AIOS"`). For those, the MIT license is
+preserved and attribution to the original author is kept in the
+`metadata.original_author` field of each `plugin.json`.
 
-Texto da licença MIT (aplicável aos squads que a declaram):
+MIT License text (applicable to the squads that declare it):
 
     MIT License — Copyright (c) Synkra AIOS
 
@@ -36,22 +36,21 @@ Texto da licença MIT (aplicável aos squads que a declaram):
     FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
     DEALINGS IN THE SOFTWARE.
 
-SQUAD DE LICENÇA AMBÍGUA
-------------------------
-O squad `claude-code-mastery` NÃO declara licença em sua origem
-(usa `config.yaml` sem campo `license`). Ele é marcado como
-`"license": "UNLICENSED"` no `marketplace.json`. NÃO redistribua este squad
-publicamente sem confirmar a proveniência/licença com o autor original.
+SQUAD WITH AMBIGUOUS LICENSE
+----------------------------
+The `claude-code-mastery` squad does NOT declare a license in its source
+(it uses `config.yaml` with no `license` field). It is marked as
+`"license": "UNLICENSED"` in `marketplace.json`. Do NOT redistribute this squad
+publicly without confirming provenance/license with the original author.
 
-ADAPTAÇÃO
----------
-Camada de orquestração (arquivos `SKILL.md`), comandos, identidade do
-marketplace e diferenciação dos agentes orquestradores: trabalho de adaptação
-de Anderson de Oliveira Venturini. As personas especialistas baseadas em
-figuras públicas/históricas (copywriters, investidores, etc.) permanecem como
-referências a essas figuras reais.
+ADAPTATION
+----------
+The orchestration layer (`SKILL.md` files), commands, marketplace identity, and
+differentiation of the orchestrator agents are adaptation work by
+Anderson de Oliveira Venturini. Specialist personas based on public/historical
+figures (copywriters, investors, etc.) remain references to those real figures.
 
-USO
+USE
 ---
-Marketplace de uso pessoal/privado. Veja README.md para instruções de
-instalação e a lista de esquadrões.
+Personal/private marketplace. See README.md for installation instructions and
+the list of squads.

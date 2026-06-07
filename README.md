@@ -1,133 +1,138 @@
 # Esquadrão Classe A 🎖️
 
-**Marketplace de plugins para o [Claude Code](https://claude.com/claude-code).**
-Cada plugin é um **esquadrão** — um time de agentes de IA especialistas, com um
-**orquestrador** que diagnostica o seu pedido, roteia para o especialista certo e
-entrega o trabalho com checagem de qualidade.
+**🌐 Language:** **English** · [Português](./README.pt-BR.md)
 
-São **13 esquadrões** · **177 agentes especialistas** · **135 tasks** · **28 workflows**,
-todos invocáveis por skill no Claude Code.
+**A plugin marketplace for [Claude Code](https://claude.com/claude-code).**
+Each plugin is a **squad** — a team of specialist AI agents led by an **orchestrator**
+that diagnoses your request, routes it to the right specialist, and delivers the work
+with a quality check.
 
-> Projeto **privado/pessoal**. Conteúdo adaptado do projeto open-source
-> [`ohmyjahh/xquads-squads`](https://github.com/ohmyjahh/xquads-squads) (autor original:
-> Synkra AIOS). Créditos e licença em [`NOTICE`](./NOTICE). Formato de marketplace
-> inspirado em [`mwguerra/claude-code-plugins`](https://github.com/mwguerra/claude-code-plugins).
+**13 squads** · **177 specialist agents** · **135 tasks** · **28 workflows**, all
+invocable as Claude Code skills.
+
+> **Private/personal project.** Content adapted from the open-source project
+> [`ohmyjahh/xquads-squads`](https://github.com/ohmyjahh/xquads-squads) (original author:
+> Synkra AIOS). Credits and license in [`NOTICE`](./NOTICE). Marketplace format inspired by
+> [`mwguerra/claude-code-plugins`](https://github.com/mwguerra/claude-code-plugins).
 
 ---
 
-## 🚀 Instalação
+## 🚀 Installation
 
-No Claude Code, registre o marketplace e instale os esquadrões que quiser:
+In Claude Code, register the marketplace and install the squads you want:
 
 ```bash
-# 1. Registrar o marketplace (uma vez)
+# 1. Register the marketplace (once)
 /plugin marketplace add andersonoliveiraventurini/esquadrao-classe-a
 
-# 2. Instalar um esquadrão
+# 2. Install a squad
 /plugin install copy-squad@esquadrao-classe-a
 
-# 3. (opcional) instalar todos os que interessam
+# 3. (optional) install the ones you care about
 /plugin install advisory-board@esquadrao-classe-a
 /plugin install traffic-masters@esquadrao-classe-a
 ```
 
-> Dica: para testar localmente a partir de um clone do repo, use
-> `/plugin marketplace add .` na raiz do projeto.
+> Tip: to test locally from a clone of the repo, run `/plugin marketplace add .` at the
+> project root.
 
 ---
 
-## 🧭 Como usar
+## 🧭 How to use
 
-Depois de instalar, é só pedir naturalmente — a skill do esquadrão ativa sozinha pelo
-contexto — ou chamar o comando dedicado:
+After installing, just ask naturally — the squad's skill activates on its own from context —
+or call the dedicated command:
 
 ```bash
-/copy-squad preciso de uma headline para um anúncio de curso de inglês
-/advisory-board devo aceitar um sócio investidor que pede 30% da empresa?
-/traffic-masters minha campanha no Meta está com CPA alto, o que investigar?
+/copy-squad I need a headline for an English-course ad
+/advisory-board should I accept an investor who wants 30% of the company?
+/traffic-masters my Meta campaign has a high CPA, what should I investigate?
 ```
 
-O orquestrador então:
-1. **Diagnostica** o pedido (tipo de trabalho, contexto, objetivo).
-2. **Roteia** para o(s) especialista(s) certo(s).
-3. **Assume a persona** do especialista (lendo o arquivo do agente) e **executa a task**.
-4. **Checa a qualidade** antes de entregar.
+The orchestrator then:
+1. **Diagnoses** the request (type of work, context, objective).
+2. **Routes** to the right specialist(s).
+3. **Adopts the persona** of the specialist (by reading the agent file) and **runs the task**.
+4. **Checks quality** before delivering.
+
+> The synthesized orchestration layer (each squad's `SKILL.md`) is written in **Brazilian
+> Portuguese** to maximize skill-activation accuracy for the author's prompts. The squads
+> understand and respond in any language — feel free to prompt in English.
 
 ---
 
-## 🎯 Os 13 Esquadrões
+## 🎯 The 13 Squads
 
-| Esquadrão | Foco | Agentes | Instalar |
-|-----------|------|:------:|----------|
-| `advisory-board` | Conselho de mentores para decisões estratégicas de negócio e vida | 11 | `/plugin install advisory-board@esquadrao-classe-a` |
-| `c-level-squad` | Conselho executivo C-level (CEO/CTO/CFO/CMO…) | 6 | `/plugin install c-level-squad@esquadrao-classe-a` |
-| `hormozi-squad` | Ofertas irresistíveis, monetização e escala (estilo Hormozi) | 16 | `/plugin install hormozi-squad@esquadrao-classe-a` |
-| `copy-master` | Copywriting de elite — 32 copywriters lendários | 33 | `/plugin install copy-master@esquadrao-classe-a` |
-| `copy-squad` | Copywriting direct-response — 22 copywriters | 23 | `/plugin install copy-squad@esquadrao-classe-a` |
-| `brand-squad` | Branding, identidade e posicionamento de marca | 15 | `/plugin install brand-squad@esquadrao-classe-a` |
-| `storytelling` | Narrativa, roteiro e comunicação por histórias | 12 | `/plugin install storytelling@esquadrao-classe-a` |
-| `traffic-masters` | Tráfego pago e mídia de performance (Meta/Google Ads) | 16 | `/plugin install traffic-masters@esquadrao-classe-a` |
-| `design-squad` | Design de produto, UX/UI e sistemas visuais | 8 | `/plugin install design-squad@esquadrao-classe-a` |
-| `data-squad` | Dados, BI, analytics e crescimento orientado a dados | 7 | `/plugin install data-squad@esquadrao-classe-a` |
-| `cybersecurity` | Segurança ofensiva/defensiva, auditoria e resposta a incidentes | 15 | `/plugin install cybersecurity@esquadrao-classe-a` |
-| `movement` | Construção de movimentos, causas e comunidades | 7 | `/plugin install movement@esquadrao-classe-a` |
-| `claude-code-mastery` ⚠️ | Maestria no próprio Claude Code (hooks, skills, MCP, subagents) | 8 | `/plugin install claude-code-mastery@esquadrao-classe-a` |
+| Squad | Focus | Agents | Install |
+|-------|-------|:------:|---------|
+| `advisory-board` | Mentor council for strategic business & life decisions | 11 | `/plugin install advisory-board@esquadrao-classe-a` |
+| `c-level-squad` | Executive C-level council (CEO/CTO/CFO/CMO…) | 6 | `/plugin install c-level-squad@esquadrao-classe-a` |
+| `hormozi-squad` | Irresistible offers, monetization & scaling (Hormozi-style) | 16 | `/plugin install hormozi-squad@esquadrao-classe-a` |
+| `copy-master` | Elite copywriting — 32 legendary copywriters | 33 | `/plugin install copy-master@esquadrao-classe-a` |
+| `copy-squad` | Direct-response copywriting — 22 copywriters | 23 | `/plugin install copy-squad@esquadrao-classe-a` |
+| `brand-squad` | Branding, identity & market positioning | 15 | `/plugin install brand-squad@esquadrao-classe-a` |
+| `storytelling` | Narrative, scriptwriting & story-driven communication | 12 | `/plugin install storytelling@esquadrao-classe-a` |
+| `traffic-masters` | Paid traffic & performance media (Meta/Google Ads) | 16 | `/plugin install traffic-masters@esquadrao-classe-a` |
+| `design-squad` | Product design, UX/UI & visual systems | 8 | `/plugin install design-squad@esquadrao-classe-a` |
+| `data-squad` | Data, BI, analytics & data-driven growth | 7 | `/plugin install data-squad@esquadrao-classe-a` |
+| `cybersecurity` | Offensive/defensive security, audits & incident response | 15 | `/plugin install cybersecurity@esquadrao-classe-a` |
+| `movement` | Building movements, causes & communities | 7 | `/plugin install movement@esquadrao-classe-a` |
+| `claude-code-mastery` ⚠️ | Mastering Claude Code itself (hooks, skills, MCP, subagents) | 8 | `/plugin install claude-code-mastery@esquadrao-classe-a` |
 
-⚠️ `claude-code-mastery` tem **licença ambígua** na origem (sem declaração MIT). Use para
-fins pessoais; **não redistribua publicamente** sem confirmar a proveniência. Detalhes no
+⚠️ `claude-code-mastery` has an **ambiguous license** upstream (no MIT declaration). Use it for
+personal purposes; **do not redistribute publicly** without confirming provenance. See
 [`NOTICE`](./NOTICE).
 
 ---
 
-## 🗂️ Estrutura de um plugin
+## 🗂️ Plugin structure
 
 ```
-<esquadrão>/
-├── .claude-plugin/plugin.json        # manifesto do plugin
-├── commands/<esquadrão>.md           # slash command que ativa a skill
-└── skills/<esquadrão>/
-    ├── SKILL.md                      # orquestrador (roteamento + catálogo)
-    ├── agents/                       # personas especialistas
-    ├── tasks/                        # tarefas executáveis
-    ├── workflows/                    # fluxos multi-agente
-    ├── checklists/                   # critérios de qualidade
-    └── data/                         # bases de apoio (frameworks, catálogos)
+<squad>/
+├── .claude-plugin/plugin.json        # plugin manifest
+├── commands/<squad>.md               # slash command that activates the skill
+└── skills/<squad>/
+    ├── SKILL.md                      # orchestrator (routing + catalog)
+    ├── agents/                       # specialist personas
+    ├── tasks/                        # executable tasks
+    ├── workflows/                    # multi-agent flows
+    ├── checklists/                   # quality criteria
+    └── data/                         # supporting data (frameworks, catalogs)
 ```
 
-A raiz tem `.claude-plugin/marketplace.json` listando os 13 plugins.
+The root has `.claude-plugin/marketplace.json` listing all 13 plugins.
 
 ---
 
-## 🛠️ Como o marketplace é construído (reprodutível)
+## 🛠️ How the marketplace is built (reproducible)
 
-O conteúdo é gerado a partir da fonte por scripts em [`scripts/`](./scripts):
+Content is generated from the source by scripts in [`scripts/`](./scripts):
 
 ```bash
 python -m pip install --user pyyaml
 cd scripts
-python classify_orphans.py     # relatório de refs órfãs -> docs/relatorio-orfas.md
-python build_marketplace.py    # scaffold dos 13 plugins + marketplace.json
+python classify_orphans.py     # orphan-reference report -> docs/relatorio-orfas.md
+python build_marketplace.py    # scaffold all 13 plugins + marketplace.json
 ```
 
-- `lib_squads.py` — lista de esquadrões, leitor de manifesto e rebrand.
-- `classify_orphans.py` — classifica refs de tasks inexistentes (input faltando × output de runtime).
-- `build_marketplace.py` — copia resources (com rebrand), gera `plugin.json`, comandos e `marketplace.json`.
+- `lib_squads.py` — squad list, manifest reader, and rebrand map.
+- `classify_orphans.py` — classifies references to non-existent tasks (missing input vs runtime output).
+- `build_marketplace.py` — copies resources (with rebrand), generates `plugin.json`, commands and `marketplace.json`.
 
-Os arquivos `SKILL.md` (camada de orquestração em PT-BR) são autorados sobre esse scaffold.
-
----
-
-## 📚 Documentação
-
-- [`docs/PRD-marketplace-esquadroes.md`](./docs/PRD-marketplace-esquadroes.md) — requisitos e decisões.
-- [`docs/superpowers/plans/2026-06-06-marketplace-esquadroes.md`](./docs/superpowers/plans/2026-06-06-marketplace-esquadroes.md) — plano de implementação.
-- [`docs/relatorio-orfas.md`](./docs/relatorio-orfas.md) — QA das referências órfãs.
-- [`docs/GUIA-DE-USO.md`](./docs/GUIA-DE-USO.md) — guia prático de uso dos esquadrões.
+The `SKILL.md` files (PT-BR orchestration layer) are authored on top of that scaffold.
 
 ---
 
-## ⚖️ Licença e créditos
+## 📚 Documentation
 
-Conteúdo dos squads: majoritariamente **MIT** (autor original **Synkra AIOS**) — ver
-[`NOTICE`](./NOTICE). Camada de adaptação (orquestração, comandos, identidade do
-marketplace): Anderson de Oliveira Venturini.
+- [`docs/USAGE.md`](./docs/USAGE.md) — practical usage guide (English) · [Português](./docs/USAGE.pt-BR.md)
+- [`docs/PRD-marketplace-esquadroes.md`](./docs/PRD-marketplace-esquadroes.md) — requirements & decisions (PT).
+- [`docs/superpowers/plans/2026-06-06-marketplace-esquadroes.md`](./docs/superpowers/plans/2026-06-06-marketplace-esquadroes.md) — implementation plan (PT).
+- [`docs/relatorio-orfas.md`](./docs/relatorio-orfas.md) — orphan-reference QA report.
+
+---
+
+## ⚖️ License & credits
+
+Squad content: mostly **MIT** (original author **Synkra AIOS**) — see [`NOTICE`](./NOTICE).
+Adaptation layer (orchestration, commands, marketplace identity): Anderson de Oliveira Venturini.

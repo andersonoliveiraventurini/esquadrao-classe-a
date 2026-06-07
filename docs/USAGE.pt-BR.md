@@ -1,5 +1,7 @@
 # Guia de Uso — Esquadrão Classe A
 
+**🌐 Idioma:** [English](./USAGE.md) · **Português**
+
 Guia prático para tirar o máximo dos esquadrões no Claude Code.
 
 ## 1. Conceito
