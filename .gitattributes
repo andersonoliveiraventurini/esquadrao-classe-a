@@ -1,2 +1,24 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Linguist — o conteúdo dos esquadrões é adaptado/gerado (não é código autoral).
+# Marcar como "vendored" mantém a barra de linguagens refletindo o código real (Python em scripts/).
+advisory-board/**        linguist-vendored
+brand-squad/**           linguist-vendored
+c-level-squad/**         linguist-vendored
+claude-code-mastery/**   linguist-vendored
+copy-master/**           linguist-vendored
+copy-squad/**            linguist-vendored
+cybersecurity/**         linguist-vendored
+data-squad/**            linguist-vendored
+design-squad/**          linguist-vendored
+hormozi-squad/**         linguist-vendored
+movement/**              linguist-vendored
+storytelling/**          linguist-vendored
+traffic-masters/**       linguist-vendored
+esquadrao-completo/**    linguist-vendored
+.agents/**               linguist-vendored
+
+# Documentação não conta como "código"
+docs/**                  linguist-documentation
+*.md                     linguist-documentation
