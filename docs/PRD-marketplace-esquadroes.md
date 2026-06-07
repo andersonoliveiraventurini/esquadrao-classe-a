@@ -47,7 +47,7 @@ demanda.
 | **Idioma da FONTE** | **Manter como está** (conteúdo PT/EN misto preservado verbatim). |
 | **Idioma do conteúdo SINTETIZADO** | **PT-BR** (SKILL.md + comandos), com identificadores/nomes próprios/paths verbatim, descrições **discriminativas** e **palavras-chave em inglês semeadas** em cada `description` para robustez de ativação. *(Veredito do Board — §2.1)* |
 | **Comandos órfãos** | **Classificar e omitir por padrão** (opção c). Não autorar tasks faltantes. Registrar omissões em nota `KNOWN-GAPS` por SKILL.md. *(Veredito do Board — §2.1)* |
-| **Licenciamento/atribuição** | Preservar `author` + `license` em todo plugin gerado; manter privado; flagar 2 squads de licença ambígua. *(Veredito do Board — §2.2)* |
+| **Licenciamento/atribuição** | Preservar `author` + `license` em todo plugin gerado; manter privado; flagar 1 squad de licença ambígua (claude-code-mastery). *(Veredito do Board — §2.2)* |
 | **Identidade** | **Dados do git** — marketplace `esquadrao-clase-a`, owner Anderson de Oliveira Venturini, email `anderson.oliveira.venturini@gmail.com`. |
 
 ### 2.1 Deliberação do Board of Advisors (DEC-001)
@@ -83,14 +83,13 @@ Security) com **convergência 4/4 em confiança ALTA** e risco BAIXO.
 - **Não existe arquivo `LICENSE/COPYING/NOTICE`** no root do upstream.
 - **12/13 squads declaram `license: MIT` + `author: "Synkra AIOS"`** no manifesto →
   grant MIT informal porém real para esses 12.
-- **2 squads de licença AMBÍGUA:** `claude-code-mastery` (usa `config.yaml`, sem campo
-  `license`) e 1 outro `squad.yaml` sem o campo. *(Identificar qual na implementação.)*
+- **1 squad de licença AMBÍGUA:** `claude-code-mastery` (usa `config.yaml`, sem campo `license`). Os outros 12 declaram `license: MIT`.
 - **Ações obrigatórias:**
   1. Preservar `author` + `license` em cada `plugin.json`/SKILL.md gerado (compliance MIT).
   2. Adicionar um `NOTICE`/seção de atribuição no README raiz creditando `Synkra AIOS` /
      `ohmyjahh/xquads-squads`.
   3. Manter o marketplace **privado/local**; **não publicar nem compartilhar** — sobretudo
-     os 2 squads ambíguos — sem confirmar a proveniência.
+     o squad ambíguo — sem confirmar a proveniência.
 - Risco para uso privado single-user com atribuição preservada: **BAIXO**.
 
 > Persistência: o `.board/board.db` não foi gravado nesta sessão (`sqlite3` ausente na
@@ -273,7 +272,7 @@ Antes de sintetizar cada SKILL.md, rodar o **classificador de refs órfãs**:
 
 - `plugin.json` de cada squad herda `license` (`MIT` quando declarado na fonte) e credita o
   autor original via campo dedicado ou no README do plugin.
-- Marketplace marca os 2 squads de licença ambígua (ex.: chave `"license": "UNLICENSED"` +
+- Marketplace marca o squad de licença ambígua (ex.: chave `"license": "UNLICENSED"` +
   nota) e o README raiz instrui a **não redistribuí-los** sem confirmar proveniência.
 - README raiz inclui seção **Atribuição/Créditos**: `Synkra AIOS` / `ohmyjahh/xquads-squads`.
 
@@ -288,7 +287,7 @@ Pipeline determinístico (cópia/scaffold) + síntese por squad (SKILL.md).
    fonte não seja commitada.
 2. **Classificar órfãs (§4.7):** rodar o classificador nos 13 squads, gerar
    `docs/relatorio-orfas.md` (buckets input-faltando vs output-runtime + lista KNOWN-GAPS).
-   Identificar os 2 squads de licença ambígua (§2.2).
+   Identificar o squad de licença ambígua: claude-code-mastery (§2.2).
 3. **Scaffold determinístico (script):** para cada squad, criar a árvore de pastas, copiar
    `agents/tasks/workflows/data/checklists/config/README.md` verbatim para
    `skills/<squad>/`, e gerar `plugin.json` a partir do `squad.yaml`/`config.yaml`
@@ -298,7 +297,7 @@ Pipeline determinístico (cópia/scaffold) + síntese por squad (SKILL.md).
    **Ordem:** começar pelos **7 squads limpos** (validação rápida), depois os 7 com órfãs.
    Processar em lotes (máx. 3 agentes simultâneos — regra do usuário) se paralelizar.
 5. **Gerar comandos:** um `commands/<squad>.md` por plugin (§4.6), em PT-BR.
-6. **Gerar `marketplace.json`** com as 13 entradas (§4.3), marcando os 2 ambíguos.
+6. **Gerar `marketplace.json`** com as 13 entradas (§4.3), marcando o ambíguo (claude-code-mastery).
 7. **Tratar `claude-code-mastery`** (caso especial §3 — `config.yaml` + `scripts/` + `templates/`).
 8. **README raiz** com instruções de instalação, tabela dos 13 esquadrões e seção
    **Atribuição/Créditos** (§4.8). Adicionar `NOTICE` se aplicável.
@@ -321,7 +320,7 @@ Pipeline determinístico (cópia/scaffold) + síntese por squad (SKILL.md).
       input-faltando expostas); órfãs do tipo (i) omitidas e registradas em `KNOWN-GAPS`.
 - [ ] `docs/relatorio-orfas.md` existe com os buckets por squad (§4.7).
 - [ ] Os 7 squads limpos não têm seção `KNOWN-GAPS` (nada a omitir).
-- [ ] Os 2 squads de licença ambígua estão marcados no `marketplace.json` e citados no README
+- [ ] O squad de licença ambígua (claude-code-mastery) está marcado no `marketplace.json` e citados no README
       raiz com aviso de não-redistribuição (§2.2/§4.8).
 - [ ] README raiz tem seção **Atribuição/Créditos** (`Synkra AIOS` / `ohmyjahh/xquads-squads`).
 - [ ] `claude-code-mastery` inclui `scripts/` e `templates/` e tem `plugin.json` derivado do
@@ -337,7 +336,7 @@ Pipeline determinístico (cópia/scaffold) + síntese por squad (SKILL.md).
 
 | Risco | Severidade | Mitigação |
 |-------|:--:|-----------|
-| **Licenciamento:** sem `LICENSE` no root; 2 squads sem declaração MIT. Redistribuir = risco de copyright. | **Alta se público** / Baixa se privado | Preservar `author`+`license`; manter privado/local; flagar os 2 ambíguos; **não publicar** sem confirmar proveniência (§2.2). |
+| **Licenciamento:** sem `LICENSE` no root; 1 squad (claude-code-mastery) sem declaração MIT. Redistribuir = risco de copyright. | **Alta se público** / Baixa se privado | Preservar `author`+`license`; manter privado/local; flagar o ambíguo; **não publicar** sem confirmar proveniência (§2.2). |
 | Classificar ref de **output de runtime** como "task faltando" e omitir um comando válido. | Média | Classificador §4.7 com bucket (i)/(ii); revisão do `relatorio-orfas.md` antes de sintetizar. |
 | Formato AIOS dos agents (`*comandos`, ACTIVATION-NOTICE) não mapeia 1:1 para Claude. | Baixa | Resources verbatim; o SKILL.md traduz o ponto de entrada para a sintaxe do Claude. |
 | `claude-code-mastery` quebra o pipeline uniforme. | Baixa | Branch dedicado no script para `config.yaml` + pastas extras. |
