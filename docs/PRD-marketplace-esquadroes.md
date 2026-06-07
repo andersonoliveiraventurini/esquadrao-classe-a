@@ -84,6 +84,7 @@ Security) com **convergência 4/4 em confiança ALTA** e risco BAIXO.
 - **12/13 squads declaram `license: MIT` + `author: "Synkra AIOS"`** no manifesto →
   grant MIT informal porém real para esses 12.
 - **1 squad de licença AMBÍGUA:** `claude-code-mastery` (usa `config.yaml`, sem campo `license`). Os outros 12 declaram `license: MIT`.
+  - ✅ **RESOLVIDO (2026-06-06):** o `claude-code-mastery` foi **reconstruído** a partir de `TheDecipherist/claude-code-mastery` (MIT) — material de referência MIT creditado + personas/orquestração autorais. Agora **todos os 13 squads são MIT** e não há nenhum `UNLICENSED` no `marketplace.json`.
 - **Ações obrigatórias:**
   1. Preservar `author` + `license` em cada `plugin.json`/SKILL.md gerado (compliance MIT).
   2. Adicionar um `NOTICE`/seção de atribuição no README raiz creditando `Synkra AIOS` /

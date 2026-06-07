@@ -1,8 +1,8 @@
 {
   "name": "claude-code-mastery",
   "version": "1.0.0",
-  "description": "Squad especialista em todas as dimensões do Claude Code: hooks, skills, subagents, MCP, plugins, agent teams, customização, integração com projetos, roadmap tracking, e AIOS-core architecture awareness.",
-  "license": "UNLICENSED",
+  "description": "Maestria no próprio Claude Code: CLAUDE.md, hooks de enforcement, MCP, skills e slash commands. Templates prontos, hooks e um guia completo, mais 8 especialistas para configurar e automatizar seu Claude Code.",
+  "license": "MIT",
   "author": {
     "name": "Anderson de Oliveira Venturini",
     "email": "anderson.oliveira.venturini@gmail.com"
@@ -11,18 +11,17 @@
     "claude-code",
     "hooks",
     "skills",
-    "subagents",
     "mcp",
-    "plugins",
-    "agent-teams",
-    "customization",
-    "integration",
-    "context-engineering",
-    "roadmap",
-    "aios"
+    "slash-commands",
+    "claude-md",
+    "enforcement",
+    "configuration",
+    "automation",
+    "security"
   ],
   "metadata": {
-    "adapted_from": "ohmyjahh/xquads-squads",
-    "original_author": "Synkra AIOS"
+    "reference_material_from": "TheDecipherist/claude-code-mastery",
+    "reference_license": "MIT (Copyright 2025 TheDecipherist)",
+    "personas_and_orchestration": "Anderson de Oliveira Venturini"
   }
 }

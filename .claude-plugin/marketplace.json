@@ -260,22 +260,20 @@
       "name": "claude-code-mastery",
       "source": "./claude-code-mastery",
       "version": "1.0.0",
-      "description": "Squad especialista em todas as dimensões do Claude Code: hooks, skills, subagents, MCP, plugins, agent teams, customização, integração com projetos, roadmap tracking, e AIOS-core architecture awareness.",
+      "description": "Maestria no próprio Claude Code: CLAUDE.md, hooks de enforcement, MCP, skills e slash commands. Templates prontos, hooks e um guia completo, mais 8 especialistas para configurar e automatizar seu Claude Code.",
       "keywords": [
         "claude-code",
         "hooks",
         "skills",
-        "subagents",
         "mcp",
-        "plugins",
-        "agent-teams",
-        "customization",
-        "integration",
-        "context-engineering",
-        "roadmap",
-        "aios"
+        "slash-commands",
+        "claude-md",
+        "enforcement",
+        "configuration",
+        "automation",
+        "security"
       ],
-      "license": "UNLICENSED"
+      "license": "MIT"
     }
   ]
 }

@@ -2,10 +2,14 @@ Esquadrão Classe A — Plugin marketplace for Claude Code
 =======================================================
 
 This project packages and adapts, in the Claude Code plugin-marketplace format,
-the "squads" from the open-source project:
+specialist agent "squads". Source content comes from two open-source projects:
 
     ohmyjahh/xquads-squads  —  https://github.com/ohmyjahh/xquads-squads
-    Original author of the squad content: Synkra AIOS
+    Original author: Synkra AIOS  (12 squads)
+
+    TheDecipherist/claude-code-mastery  —  https://github.com/TheDecipherist/claude-code-mastery
+    Original author: TheDecipherist, MIT  (reference material for the
+    `claude-code-mastery` squad: templates, hooks, commands, skills, guide)
 
 LICENSE OF THE ORIGINAL CONTENT
 -------------------------------
@@ -36,12 +40,16 @@ MIT License text (applicable to the squads that declare it):
     FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
     DEALINGS IN THE SOFTWARE.
 
-SQUAD WITH AMBIGUOUS LICENSE
-----------------------------
-The `claude-code-mastery` squad does NOT declare a license in its source
-(it uses `config.yaml` with no `license` field). It is marked as
-`"license": "UNLICENSED"` in `marketplace.json`. Do NOT redistribute this squad
-publicly without confirming provenance/license with the original author.
+CLAUDE-CODE-MASTERY SQUAD
+-------------------------
+The `claude-code-mastery` squad bundles MIT-licensed reference material
+(templates, hooks, slash commands, skills, and the guide) from
+TheDecipherist/claude-code-mastery (Copyright (c) 2025 TheDecipherist). The MIT
+license text is preserved in
+`claude-code-mastery/skills/claude-code-mastery/LICENSE-thedecipherist`. The
+squad's specialist personas, tasks, and orchestration (SKILL.md) are original
+work by Anderson de Oliveira Venturini. All 13 squads in this marketplace are
+MIT-licensed.
 
 ADAPTATION
 ----------

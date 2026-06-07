@@ -10,10 +10,24 @@ entrega o trabalho com checagem de qualidade.
 São **13 esquadrões** · **177 agentes especialistas** · **135 tasks** · **28 workflows**,
 todos invocáveis por skill no Claude Code.
 
+> *"Se você tem um problema… se nenhuma IA genérica resolve… e se você conseguir instalá-los… talvez possa convocar o Esquadrão Classe A."* 🎬
+
 > Projeto **privado/pessoal**. Conteúdo adaptado do projeto open-source
 > [`ohmyjahh/xquads-squads`](https://github.com/ohmyjahh/xquads-squads) (autor original:
 > Synkra AIOS). Créditos e licença em [`NOTICE`](./NOTICE). Formato de marketplace
 > inspirado em [`mwguerra/claude-code-plugins`](https://github.com/mwguerra/claude-code-plugins).
+
+---
+
+## 🎬 Sobre o nome
+
+**Esquadrão Classe A** é o título brasileiro de **The A-Team** (*Esquadrão Classe A*) — a
+série dos anos 80 sobre um time de especialistas que você chama quando tem um problema e
+ninguém mais pode ajudar.
+
+É essa a ideia: em vez de uma IA generalista, você ganha um *time* de especialistas que
+convoca sob demanda — e um orquestrador que escolhe o certo para cada tarefa. Como diria o
+Hannibal: **"Adoro quando um plano dá certo."**
 
 ---
 
@@ -115,11 +129,11 @@ O orquestrador então:
 | `data-squad` | Dados, BI, analytics e crescimento orientado a dados | 7 | `/plugin install data-squad@esquadrao-classe-a` |
 | `cybersecurity` | Segurança ofensiva/defensiva, auditoria e resposta a incidentes | 15 | `/plugin install cybersecurity@esquadrao-classe-a` |
 | `movement` | Construção de movimentos, causas e comunidades | 7 | `/plugin install movement@esquadrao-classe-a` |
-| `claude-code-mastery` ⚠️ | Maestria no próprio Claude Code (hooks, skills, MCP, subagents) | 8 | `/plugin install claude-code-mastery@esquadrao-classe-a` |
+| `claude-code-mastery` | Maestria no próprio Claude Code — CLAUDE.md, hooks, MCP, skills, slash commands | 8 | `/plugin install claude-code-mastery@esquadrao-classe-a` |
 
-⚠️ `claude-code-mastery` tem **licença ambígua** na origem (sem declaração MIT). Use para
-fins pessoais; **não redistribua publicamente** sem confirmar a proveniência. Detalhes no
-[`NOTICE`](./NOTICE).
+ℹ️ `claude-code-mastery` empacota material de referência com **licença MIT** (templates, hooks,
+comandos, skills, guia) de [`TheDecipherist/claude-code-mastery`](https://github.com/TheDecipherist/claude-code-mastery);
+as personas especialistas e a orquestração são autoria própria. Detalhes no [`NOTICE`](./NOTICE).
 
 ---
 

@@ -10,10 +10,23 @@ with a quality check.
 **13 squads** · **177 specialist agents** · **135 tasks** · **28 workflows**, all
 invocable as Claude Code skills.
 
+> *"If you have a problem… if no generic AI can help… and if you can install them… maybe you can summon the A‑Team."* 🎬
+
 > **Private/personal project.** Content adapted from the open-source project
 > [`ohmyjahh/xquads-squads`](https://github.com/ohmyjahh/xquads-squads) (original author:
 > Synkra AIOS). Credits and license in [`NOTICE`](./NOTICE). Marketplace format inspired by
 > [`mwguerra/claude-code-plugins`](https://github.com/mwguerra/claude-code-plugins).
+
+---
+
+## 🎬 About the name
+
+**Esquadrão Classe A** is the Brazilian title of **The A-Team** — the 1980s show about a
+crack squad of specialists you call when you have a problem and no one else can help.
+
+That's the whole idea here: instead of one generalist AI, you get a *team* of specialists you
+summon on demand — and an orchestrator that picks the right one for the job. As Hannibal would
+put it: **"I love it when a plan comes together."**
 
 ---
 
@@ -115,11 +128,11 @@ The orchestrator then:
 | `data-squad` | Data, BI, analytics & data-driven growth | 7 | `/plugin install data-squad@esquadrao-classe-a` |
 | `cybersecurity` | Offensive/defensive security, audits & incident response | 15 | `/plugin install cybersecurity@esquadrao-classe-a` |
 | `movement` | Building movements, causes & communities | 7 | `/plugin install movement@esquadrao-classe-a` |
-| `claude-code-mastery` ⚠️ | Mastering Claude Code itself (hooks, skills, MCP, subagents) | 8 | `/plugin install claude-code-mastery@esquadrao-classe-a` |
+| `claude-code-mastery` | Mastering Claude Code itself — CLAUDE.md, hooks, MCP, skills, slash commands | 8 | `/plugin install claude-code-mastery@esquadrao-classe-a` |
 
-⚠️ `claude-code-mastery` has an **ambiguous license** upstream (no MIT declaration). Use it for
-personal purposes; **do not redistribute publicly** without confirming provenance. See
-[`NOTICE`](./NOTICE).
+ℹ️ `claude-code-mastery` bundles **MIT-licensed** reference material (templates, hooks, commands,
+skills, guide) from [`TheDecipherist/claude-code-mastery`](https://github.com/TheDecipherist/claude-code-mastery);
+its specialist personas and orchestration are original work. See [`NOTICE`](./NOTICE).
 
 ---
 
