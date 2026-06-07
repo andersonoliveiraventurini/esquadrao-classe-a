@@ -35,15 +35,15 @@ def build():
 
     plugin = {
         "name": BUNDLE,
-        "version": "1.0.0",
+        "version": "1.1.0",
         "description": ("Pacote completo: instala os 13 esquadrões de uma vez "
                         "(177 agentes especialistas). Use este plugin único em vez de "
                         "instalar squad por squad."),
         "license": "MIT",
         "author": PACKAGER,
         "keywords": sorted(kw)[:25],
-        "metadata": {"bundles": SQUADS, "adapted_from": "ohmyjahh/xquads-squads",
-                     "note": "claude-code-mastery tem licença ambígua — ver NOTICE"},
+        "metadata": {"bundles": SQUADS,
+                     "note": "Todos os 13 squads MIT. Créditos: ohmyjahh/xquads-squads e TheDecipherist/claude-code-mastery — ver NOTICE"},
     }
     (dest / ".claude-plugin" / "plugin.json").write_text(
         json.dumps(plugin, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -51,7 +51,7 @@ def build():
     # registra no marketplace.json (sem regenerar os demais)
     mp_path = REPO / ".claude-plugin" / "marketplace.json"
     mp = json.load(open(mp_path, encoding="utf-8"))
-    entry = {"name": BUNDLE, "source": f"./{BUNDLE}", "version": "1.0.0",
+    entry = {"name": BUNDLE, "source": f"./{BUNDLE}", "version": "1.1.0",
              "description": plugin["description"], "keywords": plugin["keywords"],
              "license": "MIT"}
     mp["plugins"] = [p for p in mp["plugins"] if p["name"] != BUNDLE]

@@ -1,6 +1,6 @@
 {
   "name": "claude-code-mastery",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Maestria no próprio Claude Code: CLAUDE.md, hooks de enforcement, MCP, skills e slash commands. Templates prontos, hooks e um guia completo, mais 8 especialistas para configurar e automatizar seu Claude Code.",
   "license": "MIT",
   "author": {
