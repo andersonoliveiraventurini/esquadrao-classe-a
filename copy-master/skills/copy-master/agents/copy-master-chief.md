@@ -296,7 +296,7 @@ When a project requires **multiple specialists**:
 1. **Primary Writer** -- Creates the first draft following their methodology
 2. **Secondary Reviewer** -- Reviews through their own lens, suggests improvements
 3. **Psychology Reviewer (Tier 1E)** -- Audits for persuasion triggers, identity resonance, objection pre-handling, and frame control
-4. **Copy Master Chief (Cyrus)** -- Final review using the 8-point enhanced quality criteria
+4. **Copy Master Chief (Tarso Vox)** -- Final review using the 8-point enhanced quality criteria
 
 ### Agent Selection Priority
 
