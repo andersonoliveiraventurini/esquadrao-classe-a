@@ -1,4 +1,4 @@
-"""Biblioteca compartilhada do build do marketplace Esquadrão Clase A."""
+"""Biblioteca compartilhada do build do marketplace Esquadrão Classe A."""
 from pathlib import Path
 import yaml
 
@@ -15,16 +15,16 @@ SQUADS = CLEAN + ORPHAN + SPECIAL
 PACKAGER = {"name": "Anderson de Oliveira Venturini",
             "email": "anderson.oliveira.venturini@gmail.com"}
 
-MARKETPLACE = "esquadrao-clase-a"
+MARKETPLACE = "esquadrao-classe-a"
 
 # Rebrand: remove a marca da fonte para o projeto ter identidade própria.
 # (A atribuição MIT ao autor original fica centralizada no NOTICE/README.)
 REBRAND = [
-    ("Synkra AIOS", "Esquadrão Clase A"),
-    ("Synkra", "Esquadrão Clase A"),
-    ("xQuads", "Esquadrão Clase A"),
-    ("XQuads", "Esquadrão Clase A"),
-    ("Xquads", "Esquadrão Clase A"),
+    ("Synkra AIOS", "Esquadrão Classe A"),
+    ("Synkra", "Esquadrão Classe A"),
+    ("xQuads", "Esquadrão Classe A"),
+    ("XQuads", "Esquadrão Classe A"),
+    ("Xquads", "Esquadrão Classe A"),
 ]
 
 

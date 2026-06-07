@@ -1,4 +1,4 @@
-# Esquadrão Clase A 🎖️
+# Esquadrão Classe A 🎖️
 
 **Marketplace de plugins para o [Claude Code](https://claude.com/claude-code).**
 Cada plugin é um **esquadrão** — um time de agentes de IA especialistas, com um
@@ -21,14 +21,14 @@ No Claude Code, registre o marketplace e instale os esquadrões que quiser:
 
 ```bash
 # 1. Registrar o marketplace (uma vez)
-/plugin marketplace add andersonoliveiraventurini/esquadrao-clase-a
+/plugin marketplace add andersonoliveiraventurini/esquadrao-classe-a
 
 # 2. Instalar um esquadrão
-/plugin install copy-squad@esquadrao-clase-a
+/plugin install copy-squad@esquadrao-classe-a
 
 # 3. (opcional) instalar todos os que interessam
-/plugin install advisory-board@esquadrao-clase-a
-/plugin install traffic-masters@esquadrao-clase-a
+/plugin install advisory-board@esquadrao-classe-a
+/plugin install traffic-masters@esquadrao-classe-a
 ```
 
 > Dica: para testar localmente a partir de um clone do repo, use
@@ -59,19 +59,19 @@ O orquestrador então:
 
 | Esquadrão | Foco | Agentes | Instalar |
 |-----------|------|:------:|----------|
-| `advisory-board` | Conselho de mentores para decisões estratégicas de negócio e vida | 11 | `/plugin install advisory-board@esquadrao-clase-a` |
-| `c-level-squad` | Conselho executivo C-level (CEO/CTO/CFO/CMO…) | 6 | `/plugin install c-level-squad@esquadrao-clase-a` |
-| `hormozi-squad` | Ofertas irresistíveis, monetização e escala (estilo Hormozi) | 16 | `/plugin install hormozi-squad@esquadrao-clase-a` |
-| `copy-master` | Copywriting de elite — 32 copywriters lendários | 33 | `/plugin install copy-master@esquadrao-clase-a` |
-| `copy-squad` | Copywriting direct-response — 22 copywriters | 23 | `/plugin install copy-squad@esquadrao-clase-a` |
-| `brand-squad` | Branding, identidade e posicionamento de marca | 15 | `/plugin install brand-squad@esquadrao-clase-a` |
-| `storytelling` | Narrativa, roteiro e comunicação por histórias | 12 | `/plugin install storytelling@esquadrao-clase-a` |
-| `traffic-masters` | Tráfego pago e mídia de performance (Meta/Google Ads) | 16 | `/plugin install traffic-masters@esquadrao-clase-a` |
-| `design-squad` | Design de produto, UX/UI e sistemas visuais | 8 | `/plugin install design-squad@esquadrao-clase-a` |
-| `data-squad` | Dados, BI, analytics e crescimento orientado a dados | 7 | `/plugin install data-squad@esquadrao-clase-a` |
-| `cybersecurity` | Segurança ofensiva/defensiva, auditoria e resposta a incidentes | 15 | `/plugin install cybersecurity@esquadrao-clase-a` |
-| `movement` | Construção de movimentos, causas e comunidades | 7 | `/plugin install movement@esquadrao-clase-a` |
-| `claude-code-mastery` ⚠️ | Maestria no próprio Claude Code (hooks, skills, MCP, subagents) | 8 | `/plugin install claude-code-mastery@esquadrao-clase-a` |
+| `advisory-board` | Conselho de mentores para decisões estratégicas de negócio e vida | 11 | `/plugin install advisory-board@esquadrao-classe-a` |
+| `c-level-squad` | Conselho executivo C-level (CEO/CTO/CFO/CMO…) | 6 | `/plugin install c-level-squad@esquadrao-classe-a` |
+| `hormozi-squad` | Ofertas irresistíveis, monetização e escala (estilo Hormozi) | 16 | `/plugin install hormozi-squad@esquadrao-classe-a` |
+| `copy-master` | Copywriting de elite — 32 copywriters lendários | 33 | `/plugin install copy-master@esquadrao-classe-a` |
+| `copy-squad` | Copywriting direct-response — 22 copywriters | 23 | `/plugin install copy-squad@esquadrao-classe-a` |
+| `brand-squad` | Branding, identidade e posicionamento de marca | 15 | `/plugin install brand-squad@esquadrao-classe-a` |
+| `storytelling` | Narrativa, roteiro e comunicação por histórias | 12 | `/plugin install storytelling@esquadrao-classe-a` |
+| `traffic-masters` | Tráfego pago e mídia de performance (Meta/Google Ads) | 16 | `/plugin install traffic-masters@esquadrao-classe-a` |
+| `design-squad` | Design de produto, UX/UI e sistemas visuais | 8 | `/plugin install design-squad@esquadrao-classe-a` |
+| `data-squad` | Dados, BI, analytics e crescimento orientado a dados | 7 | `/plugin install data-squad@esquadrao-classe-a` |
+| `cybersecurity` | Segurança ofensiva/defensiva, auditoria e resposta a incidentes | 15 | `/plugin install cybersecurity@esquadrao-classe-a` |
+| `movement` | Construção de movimentos, causas e comunidades | 7 | `/plugin install movement@esquadrao-classe-a` |
+| `claude-code-mastery` ⚠️ | Maestria no próprio Claude Code (hooks, skills, MCP, subagents) | 8 | `/plugin install claude-code-mastery@esquadrao-classe-a` |
 
 ⚠️ `claude-code-mastery` tem **licença ambígua** na origem (sem declaração MIT). Use para
 fins pessoais; **não redistribua publicamente** sem confirmar a proveniência. Detalhes no

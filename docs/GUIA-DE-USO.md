@@ -1,4 +1,4 @@
-# Guia de Uso — Esquadrão Clase A
+# Guia de Uso — Esquadrão Classe A
 
 Guia prático para tirar o máximo dos esquadrões no Claude Code.
 

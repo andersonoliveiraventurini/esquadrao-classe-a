@@ -1005,4 +1005,4 @@ This agent synthesizes research and patterns from:
 
 ---
 ---
-*AIOS Agent - Esquadrão Clase A Swarm Orchestrator v1.0*
+*AIOS Agent - Esquadrão Classe A Swarm Orchestrator v1.0*

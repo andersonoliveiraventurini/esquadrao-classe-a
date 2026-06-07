@@ -2,7 +2,7 @@
 
 - **Data:** 2026-06-06
 - **Autor:** Anderson de Oliveira Venturini
-- **Repositório alvo:** `andersonoliveiraventurini/esquadrao-clase-a`
+- **Repositório alvo:** `andersonoliveiraventurini/esquadrao-classe-a`
 - **Fonte:** `ohmyjahh/xquads-squads`
 - **Referência de formato:** `mwguerra/claude-code-plugins`
 - **Status:** ✅ Implementado (2026-06-06) — 13 plugins gerados, validados e publicados.
@@ -30,8 +30,8 @@ demanda.
 
 ### 1.2 Resultado esperado
 
-- `/plugin marketplace add andersonoliveiraventurini/esquadrao-clase-a` registra o marketplace.
-- `/plugin install <squad>@esquadrao-clase-a` instala um esquadrão.
+- `/plugin marketplace add andersonoliveiraventurini/esquadrao-classe-a` registra o marketplace.
+- `/plugin install <squad>@esquadrao-classe-a` instala um esquadrão.
 - Em qualquer projeto, ao invocar a skill/comando do esquadrão, o Claude diagnostica o
   pedido, assume a persona do especialista certo, executa a task adequada e entrega o
   resultado com checagem de qualidade.
@@ -48,7 +48,7 @@ demanda.
 | **Idioma do conteúdo SINTETIZADO** | **PT-BR** (SKILL.md + comandos), com identificadores/nomes próprios/paths verbatim, descrições **discriminativas** e **palavras-chave em inglês semeadas** em cada `description` para robustez de ativação. *(Veredito do Board — §2.1)* |
 | **Comandos órfãos** | **Classificar e omitir por padrão** (opção c). Não autorar tasks faltantes. Registrar omissões em nota `KNOWN-GAPS` por SKILL.md. *(Veredito do Board — §2.1)* |
 | **Licenciamento/atribuição** | Preservar `author` + `license` em todo plugin gerado; manter privado; flagar 1 squad de licença ambígua (claude-code-mastery). *(Veredito do Board — §2.2)* |
-| **Identidade** | **Dados do git** — marketplace `esquadrao-clase-a`, owner Anderson de Oliveira Venturini, email `anderson.oliveira.venturini@gmail.com`. |
+| **Identidade** | **Dados do git** — marketplace `esquadrao-classe-a`, owner Anderson de Oliveira Venturini, email `anderson.oliveira.venturini@gmail.com`. |
 
 ### 2.1 Deliberação do Board of Advisors (DEC-001)
 
@@ -128,7 +128,7 @@ do `config.yaml`; copiar `scripts/` e `templates/` para os resources da skill).
 ### 4.1 Raiz do marketplace (este repositório)
 
 ```
-esquadrao-clase-a/
+esquadrao-classe-a/
 ├── .claude-plugin/
 │   └── marketplace.json        # lista os 13 plugins
 ├── README.md                   # o que é + como instalar cada esquadrão
@@ -173,7 +173,7 @@ de `skills/<squad>/`, as referências são relativas e auto-contidas (sem depend
 
 ```json
 {
-  "name": "esquadrao-clase-a",
+  "name": "esquadrao-classe-a",
   "owner": {
     "name": "Anderson de Oliveira Venturini",
     "email": "anderson.oliveira.venturini@gmail.com"
@@ -327,7 +327,7 @@ Pipeline determinístico (cópia/scaffold) + síntese por squad (SKILL.md).
       `config.yaml`.
 - [ ] Diretório-fonte temporário **não** está versionado.
 - [ ] README raiz documenta `marketplace add` + `plugin install`.
-- [ ] (Manual) `/plugin marketplace add .` + `/plugin install copy-squad@esquadrao-clase-a`
+- [ ] (Manual) `/plugin marketplace add .` + `/plugin install copy-squad@esquadrao-classe-a`
       instala e a skill responde a um pedido de teste.
 
 ---

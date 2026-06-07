@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Empacotar os 13 "squads" de `ohmyjahh/xquads-squads` como 13 plugins instaláveis num marketplace do Claude Code no repo `esquadrao-clase-a`.
+**Goal:** Empacotar os 13 "squads" de `ohmyjahh/xquads-squads` como 13 plugins instaláveis num marketplace do Claude Code no repo `esquadrao-classe-a`.
 
 **Architecture:** Arquitetura Híbrida — cada squad vira 1 plugin com `.claude-plugin/plugin.json`, um `commands/<squad>.md` e uma skill `skills/<squad>/SKILL.md` (cérebro orquestrador, sintetizado em PT-BR). Os `agents/tasks/workflows/data/checklists/config` originais são copiados **verbatim** para dentro da pasta da skill. Um script Python determinístico faz cópia + manifestos; a síntese do SKILL.md é feita por squad. Decisões do Board (DEC-001) aplicadas: classificar-e-omitir comandos órfãos, PT-BR + keywords EN, preservar atribuição/licença.
 
@@ -253,7 +253,7 @@ def build_plugin(name: str) -> dict:
 
 def build_marketplace(plugins: list):
     mp = {
-        "name": "esquadrao-clase-a",
+        "name": "esquadrao-classe-a",
         "owner": PACKAGER,
         "metadata": {
             "description": "Esquadrões de agentes de IA empacotados como plugins do Claude Code.",
@@ -423,7 +423,7 @@ Run:
 python - <<'PY'
 import json, pathlib
 mp = json.load(open(".claude-plugin/marketplace.json", encoding="utf-8"))
-assert mp["name"] == "esquadrao-clase-a"
+assert mp["name"] == "esquadrao-classe-a"
 names = [p["name"] for p in mp["plugins"]]
 assert len(names) == 13, names
 for n in names:
@@ -577,8 +577,8 @@ Empacotamento e camada sintetizada (SKILL.md/comandos): Anderson de Oliveira Ven
   - Título + 1 parágrafo do que é.
   - **Instalação:**
     ```
-    /plugin marketplace add andersonoliveiraventurini/esquadrao-clase-a
-    /plugin install copy-squad@esquadrao-clase-a
+    /plugin marketplace add andersonoliveiraventurini/esquadrao-classe-a
+    /plugin install copy-squad@esquadrao-classe-a
     ```
   - Tabela dos 13 esquadrões: nome do plugin · domínio · comando de install. Gerar a tabela a partir do marketplace.json:
     ```bash
@@ -589,7 +589,7 @@ Empacotamento e camada sintetizada (SKILL.md/comandos): Anderson de Oliveira Ven
     print("|-----------|-----------|----------|")
     for p in mp["plugins"]:
         d = p["description"][:80].replace("|", "/")
-        print(f"| `{p['name']}` | {d}… | `/plugin install {p['name']}@esquadrao-clase-a` |")
+        print(f"| `{p['name']}` | {d}… | `/plugin install {p['name']}@esquadrao-classe-a` |")
     PY
     ```
     (Colar a saída no README.)
@@ -649,7 +649,7 @@ Expected: `OK: fonte ignorada`.
 No Claude Code:
 ```
 /plugin marketplace add .
-/plugin install advisory-board@esquadrao-clase-a
+/plugin install advisory-board@esquadrao-classe-a
 ```
 Depois invocar a skill com um pedido de teste e confirmar que ela roteia para um especialista e lê o arquivo do agente. Validar também `copy-squad` (squad com órfãs) e `claude-code-mastery` (especial).
 
