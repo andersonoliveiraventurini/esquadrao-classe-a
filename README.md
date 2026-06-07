@@ -36,6 +36,35 @@ In Claude Code, register the marketplace and install the squads you want:
 > Tip: to test locally from a clone of the repo, run `/plugin marketplace add .` at the
 > project root.
 
+### Use in opencode and Codex
+
+The squads are also shipped as **standard Agent Skills** in [`.agents/skills/`](./.agents/skills) —
+the directory read natively by both **opencode** and **Codex**.
+
+**Option A — global (recommended; works in every project, for both tools):**
+
+```bash
+git clone https://github.com/andersonoliveiraventurini/esquadrao-classe-a.git
+cd esquadrao-classe-a
+python scripts/install_skills.py        # copies all 13 squads to ~/.agents/skills/
+```
+
+`~/.agents/skills/` is read by opencode (global scope) and Codex (user scope), so a single
+install enables the squads everywhere.
+
+**Option B — per project:**
+
+```bash
+python scripts/install_skills.py --dest /path/to/your/project   # -> <project>/.agents/skills/
+```
+
+Or just copy the folders you want from `.agents/skills/` into your project's `.agents/skills/`
+(also works under `.opencode/skills/` or `.claude/skills/`).
+
+**Invoking:**
+- **opencode** — ask naturally (the skill triggers from its description) or reference it.
+- **Codex** — type `$<squad>` (e.g. `$copy-squad`), use `/skills`, or let it match implicitly.
+
 ---
 
 ## 🧭 How to use

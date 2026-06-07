@@ -36,6 +36,35 @@ No Claude Code, registre o marketplace e instale os esquadrões que quiser:
 > Dica: para testar localmente a partir de um clone do repo, use
 > `/plugin marketplace add .` na raiz do projeto.
 
+### Usar no opencode e no Codex
+
+Os esquadrões também são entregues como **Agent Skills padrão** em
+[`.agents/skills/`](./.agents/skills) — o diretório lido nativamente pelo **opencode** e pelo **Codex**.
+
+**Opção A — global (recomendado; funciona em todo projeto, nas duas ferramentas):**
+
+```bash
+git clone https://github.com/andersonoliveiraventurini/esquadrao-classe-a.git
+cd esquadrao-classe-a
+python scripts/install_skills.py        # copia os 13 esquadrões para ~/.agents/skills/
+```
+
+`~/.agents/skills/` é lido pelo opencode (escopo global) e pelo Codex (escopo de usuário),
+então uma única instalação habilita os esquadrões em qualquer lugar.
+
+**Opção B — por projeto:**
+
+```bash
+python scripts/install_skills.py --dest /caminho/do/seu/projeto   # -> <projeto>/.agents/skills/
+```
+
+Ou copie as pastas que quiser de `.agents/skills/` para o `.agents/skills/` do seu projeto
+(também funciona em `.opencode/skills/` ou `.claude/skills/`).
+
+**Como invocar:**
+- **opencode** — peça naturalmente (a skill ativa pela descrição) ou referencie-a.
+- **Codex** — digite `$<esquadrão>` (ex.: `$copy-squad`), use `/skills`, ou deixe casar implicitamente.
+
 ---
 
 ## 🧭 Como usar
